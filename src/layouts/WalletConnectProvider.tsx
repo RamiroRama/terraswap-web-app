@@ -12,6 +12,7 @@ import { ConnectModalProvider } from "hooks/useConnectModal"
 const walletConnectChainIds: Record<number, NetworkInfo> = {
   0: networks.testnet,
   1: networks.mainnet,
+  2: networks.bombay,
 }
 const defaultNetwork: NetworkInfo = networks.mainnet
 
